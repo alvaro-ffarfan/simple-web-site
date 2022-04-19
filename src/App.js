@@ -1,9 +1,13 @@
-import './App.css';
+import React from 'react';
+import Button from '@mui/material/Button';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>hola</h1>
+    <div>
+      <Button>
+        este es un Boton
+      </Button>
     </div>
   );
 }
